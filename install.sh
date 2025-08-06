@@ -8,7 +8,7 @@ mkdir -p "$INSTALL_DIR"
 cd "$INSTALL_DIR" || exit 1
 
 # 2. 交互式输入域名和 token
-read -p "请输入面板域名（例如 rz.xxxx.xx）: " SERVER_DOMAIN
+read -p "请输入面板域名（例如 tz.xxxx.xx）: " SERVER_DOMAIN
 read -p "请输入探针 Token: " AGENT_TOKEN
 
 # 3. 下载 agent 二进制文件
